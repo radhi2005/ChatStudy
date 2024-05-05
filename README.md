@@ -76,8 +76,8 @@ Client-server chat applications are foundational to real-time communication over
 
 ## Client:
 ```
-Thanjiyappan k
-212222240108
+RADHIMEENA M
+212223040159
 
 import socket
 s=socket.socket()
@@ -106,6 +106,7 @@ s.connect(('localhost',8000))
 while True: 
  print(s.recv(1024).decode())
  s.send("acknowledgement recived from the server".encode())
+```
 ## Output:
 ## Client:
 ![WhatsApp Image 2024-04-30 at 22 14 05_6148db31](https://github.com/JAYASREE24032006/ChatStudy/assets/144360800/c70d5a7c-6247-48ea-896d-17011b9a3b83)
